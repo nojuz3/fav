@@ -1,0 +1,423 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  height: 100px;
+  background-color: gray;
+  background-image: url("img/8ec9ae01a437e6f222fff6163e9ac8df.gif");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.footer {
+  height: 150px;
+  background-color: gray;
+}
+.honor {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  text-align: center;
+  height: 100%;
+}
+.honor2 {
+  margin-top: 10px;
+  border: 2px outset black;
+  height: fit-content;
+  padding: 5px;
+  background-color: white;
+}
+.honor2:hover {
+  border: 2px inset black;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 20%;
+  height: 600px;
+  margin-right: 10px;
+  margin-top: 25px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.cardBox {
+  display: flex;
+  justify-content: center;
+}
+.img {
+  width: 100%;
+  height: 500px;
+}
+.cardButton {
+  width: 20%;
+  border: 1px solid black;
+  color: white;
+  background-color: black;
+}
+.cardButton:hover {
+  border: 1px inset rgb(255, 255, 255);
+}
+
+/* DON */
+.D-body {
+  background-color: #ffef23;
+}
+.D-app {
+  height: 50px;
+  background-color: yellow;
+  border: 2px solid black;
+}
+.donHeader {
+  height: 150px;
+  background-color: rgb(88, 0, 0);
+  background-image: url(https://i.pinimg.com/736x/5b/eb/d8/5bebd8ada9f345734c292ceb6385c2bf.jpg);
+  background-size: contain;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.don {
+  background-image: url("img/asd.jpg");
+  height: 650px;
+  width: 80%;
+  background-repeat: no-repeat;
+  background-size: 100% 650px;
+}
+
+.D-box {
+  display: flex;
+}
+
+.d1 {
+  display: flex;
+  justify-content: center;
+  background-color: #ffef23;
+}
+.d2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.d2img {
+  border: 5px solid black;
+  height: 800px;
+  width: 90%;
+}
+
+.d3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.d4{
+  display: flex;
+  border: 5px solid black;
+}
+.bio{
+  display: flex;
+  border: 5px solid black;
+}
+
+.D {
+  height: 600px;
+  width: 33%;
+}
+.D-text {
+  height: 600px;
+  width: 30%;
+}
+.Don-img {
+  height: 500px;
+  width: 30%;
+  border-right: 3px solid black;
+}
+.D-text2 {
+  height: 500px;
+  width: 70%;
+  font-size: 35px;
+}
+
+.fearbox {
+  display: flex;
+}
+.donfear {
+  background-color: black;
+  width: 100%;
+  color: rgb(175, 3, 3);
+  font-size: 50px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.dongfearimg {
+  height: 500px;
+}
+.fear2{
+  height: 700px;
+  width: 100%;
+}
+.donfoot{
+  height: 80px;
+  background-color: gray;
+  display: flex;
+  background-image: url(https://i.pinimg.com/736x/5b/eb/d8/5bebd8ada9f345734c292ceb6385c2bf.jpg);
+  background-size: contain;
+}
+
+
+/* ISH */
+.Ibody {
+  background-color: #ff9500;
+}
+.ishHeader {
+  height: 100px;
+  background-color: gray;
+  background-image: url(https://i.pinimg.com/736x/3b/b5/69/3bb5697457f2de401078d80f5b2c4ede.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.appear {
+  height: 50px;
+  background-color: orange;
+  border: 2px solid black;
+}
+
+.Ish-cardBox {
+  display: flex;
+}
+.Ish-cardBox {
+  display: flex;
+  justify-content: center;
+}
+.I-img {
+  border: 5px solid black;
+  height: 800px;
+  width: 90%;
+  align-items: center;
+}
+.I-img2 {
+  border: 5px solid black;
+  height: 600px;
+  width: 25%;
+}
+.I-gif {
+  border: 5px solid black;
+  height: auto;
+  width: 40%;
+}
+.I-img4 {
+  border: 5px solid black;
+  height: 500px;
+  width: 50%;
+}
+.I-text {
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  border-right: 5px solid black;
+  height: 600px;
+  width: 50%;
+  font-size: 25px;
+}
+.whale {
+  height: 500px;
+}
+.fear {
+  display: flex;
+  border: 5px solid black;
+}
+.ish-fear {
+  height: 500px;
+  color: rgb(167, 4, 4);
+  width: 100%;
+  font-size: 55px;
+}
+.if {
+  font-size: 60px;
+  color: rgb(0, 0, 0);
+}
+.ish-footer {
+  height: 60px;
+  background-color: gray;
+  display: flex;
+}
+
+/* Heath */
+.heathHeader {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  font-size: 35px;
+  height: 100px;
+  background-color: gray;
+
+}
+.H-app{
+  background-color: #4e3076;
+  height: 50px;
+  border: 2px solid black;
+  color: white;
+}
+.Hbody {
+  background-color: #4e3076;
+  color: rgb(189, 189, 189);
+}
+.H-img {
+  border: 5px solid black;
+  height: 600px;
+  width: 20%;
+}
+.H-img2 {
+  border: 5px solid black;
+  height: 850px;
+  width: 100%;
+}
+.H-text {
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  border-right: 5px solid black;
+  height: 600px;
+  width: 80%;
+  font-size: 25px;
+}
+
+.H-img22 {
+  border: 5px solid black;
+  height: 600px;
+  width: 32.8%;
+}
+.heath-img1{
+  border: 5px solid black;
+  height: 800px;
+  width: 100%;
+}
+.heath-img2{
+  border: 5px solid black;
+  height: 400px;
+  width: 50%;
+}
+.H-fear{
+  width: 50%;
+  color: white;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  border-left: 5px solid black;
+  font-size: 50px;
+}
+.H-i{
+  display: flex;
+}
+.H-cardBox {
+  display: flex;
+}
+.H-bio{
+  display: flex;
+  height: 600px;
+}
+.H-cards{
+  display: flex;
+}
+.Heath-cards{
+  display: flex;
+  flex-wrap: wrap;
+}
+/* Extra */
+.header-honor{
+  background-color: gray;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 5px solid black;
+}
+
+.ex{
+  height: 50px;
+  width: 50px;
+  background-color: rgb(165, 0, 165);
+  color: rgb(255, 255, 255);
+}
+.exit{
+  background-color: rgb(165, 0, 165);
+  color: white;
+  border: 5px solid black;
+  padding: 5px;
+}
+.honorBG{
+  background-color: black;
+}
+.double {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+  border: 5px solid purple;
+  margin-left: -5px;
+}
+.double img{
+  width: 100%;
+}
+.hiden{
+  background-color: white;
+  color: white;
+}
+.hiden:hover{
+  background-color: black;
+  color: rgb(197, 0, 197);
+}
+.double-text {
+  width: 100%;
+  text-align: center;
+  background-color: black;
+  color: rgb(197, 0, 197);
+  height: fit-content;
+  font-size: 50px;
+}
+/* LOR */
+.library{
+  background-color: rgb(43, 43, 43);
+  display: flex;
+  flex-wrap: wrap;
+}
+.furioso{
+  width: 50%;
+  height: 600px;
+}
+.textwhite{
+  color: white;
+  font-size: 25px;
+}
+.FGO{
+  display: flex;
+  flex-wrap: wrap;
+}
+.order{
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.peak{
+  display: flex;
+  width: 100%;
+}
+.peakimg{
+  width: 20%;
+  height: 400px;
+}
+.rowimg{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
