@@ -365,9 +365,6 @@
   border: 5px solid purple;
   margin-left: -5px;
 }
-.double img{
-  width: 100%;
-}
 .hiden{
   background-color: white;
   color: white;
@@ -420,4 +417,11 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+}
+.twoimg{
+  width: 100%;
+}
+.herta{
+  width: 500px;
+  height: 350px;
 }
