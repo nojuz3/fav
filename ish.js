@@ -14,7 +14,6 @@ setInterval(cycleImages, 3000);
 
 
 
-
 document.addEventListener("DOMContentLoaded", () => {
   document.querySelector(".i2").style.display = "none";
   document.querySelector(".fear").style.display = "none";
@@ -25,11 +24,13 @@ char.addEventListener("click", () => {
     document.querySelector(".fear").style.display = "flex";
     document.querySelector(".is1").style.display = "none";
     document.querySelector(".is3").style.display = "none";
+    document.querySelector(".is3-1").style.display = "none";
 });
 hub.addEventListener("click", () => {
     document.querySelector(".i2").style.display = "none";
     document.querySelector(".fear").style.display = "none";
     document.querySelector(".is1").style.display = "flex";
     document.querySelector(".is3").style.display = "flex";
+    document.querySelector(".is3-1").style.display = "flex";
 });
 

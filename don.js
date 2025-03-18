@@ -44,6 +44,7 @@ char.addEventListener("click", () => {
     document.querySelector(".d2").style.display = "none";
     document.querySelector(".d3").style.display = "none";
     document.querySelector(".d4").style.display = "none";
+    document.querySelector(".no").style.display = "none";
 });
 hub.addEventListener("click", () => {
     document.querySelector(".bio").style.display = "none";
@@ -53,4 +54,5 @@ hub.addEventListener("click", () => {
     document.querySelector(".d2").style.display = "flex";
     document.querySelector(".d3").style.display = "flex";
     document.querySelector(".d4").style.display = "flex";
+    document.querySelector(".no").style.display = "flex";
 });
